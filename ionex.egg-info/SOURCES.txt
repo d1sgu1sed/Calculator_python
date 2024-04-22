@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.py
+ionex.egg-info/PKG-INFO
+ionex.egg-info/SOURCES.txt
+ionex.egg-info/dependency_links.txt
+ionex.egg-info/requires.txt
+ionex.egg-info/top_level.txt
+src/__init__.py
+src/main.py

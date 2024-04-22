@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
-__version__ = '0.2'
+__version__ = '1.0'
 __author__ = 'Ivan Kichigin'
 __email__ = 'ivan.kichigin977@gmail.com'
 
@@ -13,14 +13,14 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='ionex',
+    name='calculator',
 
     description='',
     long_description=long_description,
 
     version=__version__,
 
-    url='https://github.com/gnss-lab/ionex',
+    url='https://github.com/d1sgu1sed/Calculator_python.git',
 
     author=__author__,
     author_email=__email__,
@@ -45,13 +45,13 @@ setup(
         'Programming Language :: Python :: 3.8',
     ],
 
-    keywords='ionosphere gnss tec development',
+    keywords='calculator',
 
     packages=find_packages(exclude=['docs', 'tests']),
 
     include_package_data=True,
 
-    install_requires=[],
+    install_requires=['numpy'],
 
     python_requires='>=3',
 
